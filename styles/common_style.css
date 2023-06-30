@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter-V.ttf);
+}
+
+body {
+  font-family: "Inter";
+  font-style: normal;
+  background: url(../png/bg.png);
+
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.wrapper {
+  position: relative;
+  overflow: auto;
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.none {
+  display: none !important;
+}
+
+.balance_cont img {
+  width: 35px;
+}
+
+.btn {
+  width: 144px;
+  height: 52px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 18.682px;
+  border-radius: 17px;
+  border: 5px solid #fff;
+  background: #d9d9d9;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/common_style.css" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <a href="../index.html" class="policy btn">Policy</a>
+
+      <div class="balance_cont btn">
+        <img src="../png/coin.png" alt="" />
+        <div class="balance"></div>
+      </div>
+
+      <a href="game1.html" class="link link_1">
+        <img src="../png/gl1.png" alt="" />
+      </a>
+
+      <a href="game2.html" class="link">
+        <img src="../png/gl2.png" alt="" />
+      </a>
+
+      <a href="game3.html" class="link">
+        <img src="../png/gl3.png" alt="" />
+      </a>
+    </div>
+
+    <script src="../scripts/jQuery.js"></script>
+    <script>
+      if (!localStorage.balance_b93) {
+        localStorage.balance_b93 = 15000;
+      }
+
+      $(".balance").html(localStorage.balance_b93);
+    </script>
+  </body>
+</html>

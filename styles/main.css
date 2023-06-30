@@ -1,0 +1,29 @@
+.wrapper {
+  padding-top: 20px;
+}
+
+.policy {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.link {
+  display: block;
+  margin: 20px auto auto;
+  width: 274px;
+}
+
+.link img {
+  width: 274px;
+}
+
+.link_1 {
+  margin-top: 90px;
+}
+
+.balance_cont {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
